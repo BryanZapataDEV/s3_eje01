@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
 </head>
+
 <body>
-    
-		<h1>HOLA MUNDO</h1>
-        
-		<nav>
-			<ul>
-				<li><a href="./inicio.html">Inicio</a></li>
-				<li><a href="./nosotros.html">Nosotros</a></li>
-				<li><a href="./portafolio.html">Portafolio</a></li>
-				<li><a href="./blog.html">Blog</a></li>
-				<li><a href="./contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
+
+	<h1>CONTACTO</h1>
+
+	<nav >
+		<ul>
+			<li><a href="./inicio.html">Inicio</a></li>
+			<li><a href="./nosotros.html">Nosotros</a></li>
+			<li><a href="./portafolio.html">Portafolio</a></li>
+			<li><a href="./blog.html">Blog</a></li>
+			<li><a href="./contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+
+	<main style="background-color: aliceblue;">
+		<p>Hola! ayudanos a mejorar la experiencia dejandonos tus datos y un comentario.</p>
+		<form action="contacto.html" id="frm_contacto">
+			<div>
+				<label for="nombre">Ingresa tu nombre</label>
+				<input id="nombre" type="text" required autocomplete="off"/>
+			</div>
+
+			<div>
+				<label for="email">Ingrese email</label>
+				<input id="email" type="email" />
+			</div>
+
+			<div>
+				<label for="number">Ingrese su telefono</label>
+				<input id="number" type="tel" />
+			</div>
+
+			<div>
+				<label for="fecha">Ingrese fecha nacimiento</label>
+				<input id="fecha" type="date" />
+			</div>
+
+			<div>
+				<label for="">Indique su sexo</label>
+				M<input type="checkbox"/>
+				F<input type="checkbox"/>
+			</div>
+
+			<div>
+				<label for="">Dejanos tus comentarios!</label>
+				<textarea name="" id="" cols="30" rows="5">Yo vivo en...</textarea>
+			</div>
+			<button type="submit">Enviar</button>
+		</form>
+
+	</main>
+
 </body>
+
 </html>
